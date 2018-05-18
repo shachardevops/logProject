@@ -1,0 +1,18 @@
+<?php
+function sendLog($userName, $password, $title, $text)
+{
+    $dbServerName = "52.28.78.77";    
+    $dbName = "logproject";
+    $conn = mysqli_connect($dbServerName, $userName, $password, $dbName);
+    $sql="INSERT INTO userLogs (title, `description`,userName) VALUES('$title', '$text','$userName');";
+    if (mysqli_query($conn, $sql))
+    {
+        echo "The log has been created ";
+    }
+    else 
+    {
+        echo "Error creating the log ".mysqli_error($conn)."<br/>";
+    } 
+}
+//sendLog('shahar','1234','logtest1','textlog1');
+?>
