@@ -1,5 +1,5 @@
 <?php
-$dbServerName = "52.28.78.77";
+$dbServerName = "18.188.102.109";
 
 $dbUserName = "root";
 
@@ -14,7 +14,7 @@ $conn = mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName);
 function HomePage()
 {
     var form=document.getElementById("theform");
-    form.action="http://52.28.78.77";
+    form.action="http://18.188.102.109";
     form.submit();
 }
 
