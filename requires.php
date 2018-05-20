@@ -1,11 +1,11 @@
 <?php
-$dbServerName = "sql142.main-hosting.eu";//18.188.102.109:3306";
+$dbServerName = "18.188.102.109:3306";
 
-$dbUserName = "	u597931953_root";//root";
+$dbUserName = "root";
 
 $dbPassword = "1234567";
 
-$dbName = "u597931953_logpr";//logproject";
+$dbName = "logproject";
 
 $conn = mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName);
 
