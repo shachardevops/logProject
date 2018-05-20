@@ -3,7 +3,7 @@ $dbServerName = "18.188.102.109";
 
 $dbUserName = "root";
 
-$dbPassword = "";
+$dbPassword = "1234567";
 
 $dbName = "logproject";
 
