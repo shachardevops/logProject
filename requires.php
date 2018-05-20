@@ -1,5 +1,5 @@
 <?php
-$dbServerName = "18.188.102.109";
+$dbServerName = "18.188.102.109:3306";
 
 $dbUserName = "root";
 
